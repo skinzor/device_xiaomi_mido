@@ -23,6 +23,9 @@ $(call inherit-product, vendor/dnd/config/common_full_phone.mk)
 # Magisk\
 WITH_ROOT=true
 
+# AudioFX
+WITH_AUDIOFX=true
+
 PRODUCT_NAME := dnd_mido
 BOARD_VENDOR := Xiaomi
 
